@@ -4,5 +4,6 @@
 改动：
 * 添加maven项目描述文件
 * 创建example目录，把src/com移至example/src/main/java，把test/test移至example/src/test/java
+* 删除lib和jar文件夹
 
 [原始文档](https://github.com/allwefantasy/ServiceFramework)
