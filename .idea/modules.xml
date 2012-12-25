@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../active_orm/active-orm.iml" filepath="$PROJECT_DIR$/../active_orm/active-orm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../csdn_common/csdn-common.iml" filepath="$PROJECT_DIR$/../csdn_common/csdn-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mongomongo/csdn-mongomongo.iml" filepath="$PROJECT_DIR$/../mongomongo/csdn-mongomongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-framework.iml" filepath="$PROJECT_DIR$/service-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/service-framework-core.iml" filepath="$PROJECT_DIR$/core/service-framework-core.iml" />
+    </modules>
+  </component>
+</project>
+
