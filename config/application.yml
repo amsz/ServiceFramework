@@ -12,7 +12,7 @@ development:
            port: 3306
            database: wow
            username: root
-           password: csdn.net
+           password:
            disable: false
         mongodb:
            host: 127.0.0.1

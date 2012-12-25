@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>net.csdn</groupId>
+        <artifactId>service-framework</artifactId>
+        <version>20121224</version>
+        <relativePath>../ServiceFramework4Maven</relativePath>
+    </parent>
+    <artifactId>service-framework-core</artifactId>
+    <packaging>jar</packaging>
+    <name>ServiceFramework :: Core</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.csdn</groupId>
+            <artifactId>csdn-common</artifactId>
+            <version>${service-framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.csdn</groupId>
+            <artifactId>csdn-activeorm</artifactId>
+            <version>${service-framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.csdn</groupId>
+            <artifactId>csdn-mongomongo</artifactId>
+            <version>${service-framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.json-lib</groupId>
+            <artifactId>json-lib</artifactId>
+            <classifier>jdk15</classifier>
+        </dependency>
+
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>config</directory>
+            </resource>
+        </resources>
+    </build>
+</project>

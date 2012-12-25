@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../active_orm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../csdn_common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../mongomongo" vcs="Git" />
+  </component>
+</project>
+
